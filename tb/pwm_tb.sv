@@ -1,3 +1,8 @@
+/*Testbench Goal:
+This testbench is used to verify if the PWM signal 
+is being generated as expected and varies 
+according to the duty cycle input.*/
+
 `timescale 1ns/1ps
 module pwm_tb();
     logic clk;
